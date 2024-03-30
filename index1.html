@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('./images/Wallpaper\ 4k\ Prior\ Lamborghini\ Huracan\ Side\ View\ Wallpaper.jpg 4k\ Prior\ Lamborghini\ Huracan\ Side\ View\ Wallpaper.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgb(19, 18, 18); 
+        }
+        .navbar{
+            position: relative;
+            top:2px;
+            height: 100px;
+            width:99%;
+            /* border:2px solid greenyellow; */
+            display:flex;
+            justify-content: space-between;
+            padding:0 20px;
+        }
+        .img-logo{
+            height: 100px;
+            width:auto;
+            border-radius: 70%;
+            transition: height 0.5s ease;
+        }
+        .img-logo:hover{
+            height: 120px;
+        }
+
+        .menu{
+           position: absolute;
+           right: 10%;
+           top:25%;
+           width:30%;
+           display:flex;
+           justify-content: space-around;
+        }
+        .menu button{
+            padding: 15px 20px;
+            font-size: 18px;
+            border:none;
+            background-image: linear-gradient(to bottom, black 70%, yellow);
+            border-radius: 10px;
+            color:yellow;
+            transition: background-image 1s ease-in-out;
+        }
+        button:hover{
+            background-image: linear-gradient(to top, yellow 70%, black);
+            color:black;
+            transition:background-image 1s ease-in 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span class="logo">
+           <a href="https://www.youtube.com/channel/UCtmAg4ak0E3UiGG4g7cfpTQ" target="_blank">
+                <img src="./images/abc.jpg" alt="logo" class="img-logo">
+           </a>
+        </span>
+        <div class="menu">
+            <a href="https://www.youtube.com/channel/UCtmAg4ak0E3UiGG4g7cfpTQ" target="_blank">
+                <button id="home">Home</button>
+            </a>
+            <a href="https://www.youtube.com/@ToppGear3/videos" target="_blank">
+                <button id="post">Posts</button>
+            </a>
+            
+            <button id="about us">About us</button>
+        </div>
+    </div>
+</body>
+</html>
